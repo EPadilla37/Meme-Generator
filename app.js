@@ -16,6 +16,7 @@ displayPicture.addEventListener('click', (e) => {
     }
 })
 
+//Removes first empty image that is placed on screen
 document.querySelector('.meme').remove();
 
 const createImageDiv = () => {
